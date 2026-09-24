@@ -1,24 +1,41 @@
-# Week 2 Project: Build the charity: water Landing Page
-To get started, create a new Codespace from this repo.
+# charity: water student landing page
 
-In this Project, you’ll transform your Canva mockup into a fully functional landing page using HTML and CSS. This is your chance to take your creative concept — with your brand visuals, your messaging, and your imagery — and make it real. You'll build a site that not only looks great, but also educates, inspires, and drives action.
+This beginner-friendly project turns the Canva hero mockup into a responsive one-page website using only HTML and CSS.
 
-With help from AI to jumpstart your layout, you'll focus on structuring your content, applying your brand style, and creating a polished final product that reflects your vision. By the end of this Project, you’ll have a live, interactive page deployed to the web. You can share this work when you want to showcase your technical skills and your passion for digital storytelling. 
+## Open the website
 
-## charity: water Brand Colors & Fonts
+1. Open this folder in your Codespace or code editor.
+2. Open `index.html` with Live Server, or double-click it to open it in a browser.
+3. Edit `index.html` for words and links. Edit `styles.css` for colors, spacing, and layout.
 
-### Primary Colors:
-- Yellow:     `#FFC907`
-- Blue:       `#2E9DF7`
+## Background photo
 
-### Secondary Colors:
-- Light Blue: `#8BD1CB`
-- Green:      `#4FCB53`
-- Orange:     `#FF902A`
-- Red:        `#F5402C`
-- Dark Green: `#159A48`
-- Pink:       `#F16061`
+The original Canva background is already included at `img/hero-photo.jpg`. The CSS uses a custom sunset illustration only as an automatic fallback if that file is moved or renamed.
 
-### Fonts:
-- Proxima Nova
-- Avenir
+To use a different photo later, put it in the `img` folder and name it exactly `hero-photo.jpg`, replacing the current file.
+
+For the sharpest result, use a landscape JPG around 1600–2000 pixels wide and under about 500 KB. If the subject is cropped too far left or right, adjust the `background-position` values in the `.hero` rules in `styles.css`.
+
+## Project structure
+
+```text
+charity-water-landing-page/
+├── index.html
+├── styles.css
+├── README.md
+└── img/
+    ├── canva-reference.png
+    ├── hero-background.svg
+    └── hero-photo.jpg        ← original Canva background photo
+```
+
+## What is included
+
+- A responsive hero closely matching the Canva design
+- Desktop and mobile navigation
+- Accessible keyboard focus, a skip link, and readable contrast
+- About, student action, and final call-to-action sections
+- Working links to charity: water's donation and login pages
+- No framework, build step, or JavaScript
+
+This is an independent student concept and is not an official charity: water website.
